@@ -11,7 +11,7 @@ class Cadastro extends StatelessWidget {
           backgroundColor: Colors.green[900],
           title: Text('Novo Livro'),
           actions: [
-            TextButton(child: Text('SALVAR', style: TextStyle(color: Colors.white)), onPressed: () => Navigator.pop(context)),
+            IconButton(icon: Icon(Icons.save), onPressed: () => Navigator.pop(context)),
           ],
         ),
         body: Column(children: [
